@@ -134,30 +134,30 @@ img{
     margin: 0 10px;
 } 
 
-/*Produtos*/
+/*Esportes*/
 
-.produtos{
+.esportes{
     max-width: 960px;
     margin: 60px auto;
 }
 
-.produtos h1{
+.esportes h1{
     font-size: 3em;
     margin: 0 10px 60px 10px;
 }
 
-.produtos-container{
+.esportes-container{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
 }
 
-.produtos-item{
+.esportes-item{
     flex: 1 1 175px;
     margin: 10px;
 }
 
-.produtos-item h2{
+.esportes-item h2{
     font-size: 3em;
     color: #a4a4a4;
     background: #f7f7f7;
@@ -178,7 +178,7 @@ img{
 
 /*Preço*/
 
-.preco{
+.pacotes{
     background: #f7f7f7;
     padding: 60px;
     display: flex;
@@ -186,7 +186,7 @@ img{
     align-items: flex-end;
 }
 
-.preco-item{
+.pacotes-item{
     flex: 1 1 260px;
     border: 4px solid white;
     padding: 20px;
@@ -194,14 +194,14 @@ img{
    
 }
  
-.preco-item h2{
+.pacotes-item h2{
     font-size: 3em;
     color: #a4a4a4;
     text-align: center;
     margin-top: 20px;
 }
 
-.preco-item span{
+.pacotes-item span{
     max-width: 300px;
     margin: 20px auto;
     display: block;
@@ -213,11 +213,11 @@ img{
     border-bottom: 4px solid white;   
 }
 
-.preco-item sup{
+.pacotes-item sup{
     font-size: 1.5rem;
 }
 
-.preco-item ul{
+.pacotes-item ul{
     max-width: 300px;
     margin: 20px auto;
     font-size: 1.25em;
@@ -225,14 +225,14 @@ img{
     font-style: italic;
     color: #7c7c7c;
 }
-.preco-item li{
+.pacotes-item li{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.preco-item li::after{
+.pacotes-item li::after{
     content: '';
     display: block;
     width: 6px;
@@ -241,7 +241,7 @@ img{
     border-radius: 50%;
 }
 
-.preco-item a {
+.pacotes-item a {
     max-width: 300px;
     display: block;
     margin: 20px auto;
@@ -255,15 +255,15 @@ img{
 }
 
 @media (max-width: 800px){
-    .preco{
+    .pacotes{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .preco .preco-item:nth-child(3){
+    .pacotes .pacotes-item:nth-child(3){
         order:-2;
      }
 
-    .preco .preco-item:nth-child(2){
+    .pacotes .pacotes-item:nth-child(2){
     order:-1;
  }
 }
